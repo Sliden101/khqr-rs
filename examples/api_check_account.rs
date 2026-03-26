@@ -3,7 +3,7 @@
 //! This example demonstrates how to check if a Bakong account exists.
 //!
 //! Prerequisites:
-//! - Get a Bakong API token from https://developer.bakong.kh/
+//! - Get a Bakong API token from https://api-bakong.nbc.gov.kh/
 //!
 //! Run with: BAKONG_TOKEN=your_token cargo run --example api_check_account --features rustls-tls
 

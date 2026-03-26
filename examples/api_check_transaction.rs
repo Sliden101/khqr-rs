@@ -3,7 +3,7 @@
 //! This example demonstrates how to check transaction status using MD5 hash.
 //!
 //! Prerequisites:
-//! - Get a Bakong API token from https://developer.bakong.kh/
+//! - Get a Bakong API token from https://api-bakong.nbc.gov.kh/
 //! - Make a test payment to get a transaction MD5 hash
 //!
 //! Run with: BAKONG_TOKEN=your_token cargo run --example api_check_transaction --features rustls-tls
