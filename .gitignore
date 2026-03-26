@@ -1,0 +1,32 @@
+# Cargo
+/target/
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Debug
+debug/
+*.pdb
+
+# Release
+/release/
+
+# Misc
+*.bak
+*.tmp
