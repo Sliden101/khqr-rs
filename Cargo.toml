@@ -1,0 +1,36 @@
+[package]
+name = "bakong-khqr"
+version = "0.1.0"
+edition = "2021"
+description = "Unofficial Rust SDK for Bakong KHQR (Cambodia)"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/anomalyco/bakong-rs"
+authors = ["Bakong Contributors"]
+keywords = ["bakong", "khqr", "payment", "cambodia", "qrcode"]
+categories = ["api-bindings", "finance"]
+
+[features]
+default = ["rustls-tls"]
+rustls-tls = ["reqwest/rustls-tls"]
+native-tls = ["reqwest/native-tls"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"], default-features = false }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+md-5 = "0.10"
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+
+[dev-dependencies]
+tokio-test = "0.4"
+wiremock = "0.6"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
