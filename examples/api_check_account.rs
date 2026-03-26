@@ -7,10 +7,10 @@
 //!
 //! Run with: BAKONG_TOKEN=your_token cargo run --example api_check_account --features rustls-tls
 
-use bakong_khqr::{BakongConfig, BakongKHQR};
+use khqr::{BakongConfig, BakongKHQR};
 
 #[tokio::main]
-async fn main() -> Result<(), bakong_khqr::BakongError> {
+async fn main() -> Result<(), khqr::BakongError> {
     println!("=== Bakong API - Check Account Example ===\n");
 
     // Get token from environment variable

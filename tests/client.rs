@@ -1,4 +1,4 @@
-use bakong_khqr::{BakongConfig, BakongKHQR, IndividualInfo, MerchantInfo};
+use khqr::{BakongConfig, BakongKHQR, IndividualInfo, MerchantInfo};
 
 #[test]
 fn test_new_client() {

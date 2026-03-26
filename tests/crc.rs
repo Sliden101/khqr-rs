@@ -1,4 +1,4 @@
-use bakong_khqr::{calculate_crc16, verify_crc};
+use khqr::{calculate_crc16, verify_crc};
 
 #[test]
 fn test_crc_basic() {

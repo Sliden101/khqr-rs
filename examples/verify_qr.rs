@@ -4,7 +4,7 @@
 //!
 //! Run with: cargo run --example verify_qr --features rustls-tls
 
-use bakong_khqr::{calculate_crc16, verify_crc, KHQRDecoder};
+use khqr::{calculate_crc16, verify_crc, KHQRDecoder};
 
 fn main() {
     println!("=== KHQR Code Verification Example ===\n");

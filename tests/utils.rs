@@ -1,4 +1,4 @@
-use bakong_khqr::{
+use khqr::{
     format_amount, format_sub_tag_length_value, format_tag_length_value, md5_hash, pad_length,
     parse_tag_length_value,
 };

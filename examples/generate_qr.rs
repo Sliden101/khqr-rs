@@ -4,7 +4,7 @@
 //!
 //! Run with: cargo run --example generate_qr --features rustls-tls
 
-use bakong_khqr::{BakongKHQR, IndividualInfo, MerchantInfo};
+use khqr::{BakongKHQR, IndividualInfo, MerchantInfo};
 
 fn main() {
     println!("=== KHQR Code Generation Example ===\n");

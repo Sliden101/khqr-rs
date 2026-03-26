@@ -12,7 +12,7 @@
 //! ## Quick Start
 //!
 //! ```rust,no_run
-//! use bakong_khqr::{BakongKHQR, IndividualInfo};
+//! use khqr::{BakongKHQR, IndividualInfo};
 //!
 //! let khqr = BakongKHQR::new("your_token");
 //!
@@ -34,10 +34,10 @@
 //! ## API Usage
 //!
 //! ```rust,no_run
-//! use bakong_khqr::{BakongKHQR, SourceInfo};
+//! use khqr::{BakongKHQR, SourceInfo};
 //!
 //! #[tokio::main]
-//! async fn main() -> Result<(), bakong_khqr::BakongError> {
+//! async fn main() -> Result<(), khqr::BakongError> {
 //!     let khqr = BakongKHQR::new("your_token");
 //!
 //!     // Check if Bakong account exists

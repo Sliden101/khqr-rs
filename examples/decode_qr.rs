@@ -4,7 +4,7 @@
 //!
 //! Run with: cargo run --example decode_qr --features rustls-tls
 
-use bakong_khqr::{BakongKHQR, IndividualInfo, KHQRDecoder};
+use khqr::{BakongKHQR, IndividualInfo, KHQRDecoder};
 
 fn main() {
     println!("=== KHQR Code Decoding Example ===\n");

@@ -1,4 +1,4 @@
-use bakong_khqr::config::BakongConfig;
+use khqr::config::BakongConfig;
 
 #[test]
 fn test_sandbox_config() {

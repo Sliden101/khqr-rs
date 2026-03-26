@@ -1,4 +1,4 @@
-use bakong_khqr::{calculate_crc16, KHQRDecoder};
+use khqr::{calculate_crc16, KHQRDecoder};
 
 #[test]
 fn test_decode_raw_basic() {
