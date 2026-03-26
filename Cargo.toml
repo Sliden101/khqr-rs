@@ -1,14 +1,14 @@
 [package]
-name = "bakong-khqr"
+name = "khqr"
 version = "0.1.0"
 edition = "2021"
-description = "Unofficial Rust SDK for Bakong KHQR (Cambodia)"
+description = "Unofficial Rust SDK for Bakong KHQR"
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/anomalyco/bakong-rs"
+repository = "https://github.com/Sliden101/khqr-rs"
 authors = ["Bakong Contributors"]
-keywords = ["bakong", "khqr", "payment", "cambodia", "qrcode"]
-categories = ["api-bindings", "finance"]
+keywords = ["bakong", "khqr", "payment", "cambodia"]
+categories = ["api-bindings"]
 
 [features]
 default = ["rustls-tls"]

@@ -188,3 +188,8 @@ let khqr = BakongKHQR::with_config(
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+
+## Contributing
+
+Contributions welcome! Please open an issue or PR on [GitHub](https://github.com/Sliden101/payway-rs)
